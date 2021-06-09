@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('//db.onlinewebfonts.com/c/fb764bc6d85f6f564312cadbd3407f7a?family=ITC+Stone+Informal');
+
+.card-img {
+  height: 700px;
+  filter:brightness(40%)
+}
+.icons {
+  list-style: none;
+  
+}
+.titulo {
+  width: 18rem;
+}
+.h2-titulo{
+  font-family: "ITC Stone Informal";
+  font-weight: 800;
+  font-display: 600;
+  line-height: 2.0;
+  font-size: 10pt;
+  
+  
+}
+.h2-subt{
+  font-family: "Montserrat-light";
+  font-weight: normal;
+  letter-spacing: 5pt;
+}
+.parrafo{
+  font-weight: 300px;
+}
+small{
+  font-size: smaller;
+}
+.enviar {
+  background-color: rgb(211,184,142);
+  border: none;
+  color: white;
+  width: 150px;
+  
+}
+.form-control-lg::placeholder {
+  color: white;
+  font-family: "Ubuntu-light";
+}
+.form-control-lg{
+  background-color: rgb(153,128,88);
+}
+
+/* Seccion A */
+.seccionA {
+  background-color:rgb(207,170,128) ;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-cert  {
+  width: 10rem;
+  background-color: transparent;
+  
+}
+.img-cert src {
+  background-color:transparent ;
+  
+}
+.h6seccB{
+  font-size: xxx-large;
+  font-family: "Ubuntu";
+  color: white;
+  padding-left: 10px;
+  
+}
+
+.img-cards{
+  width: 40rem;
+  height: 35rem;
+}
+.logos{
+  width: 18rem;
+}
+.cambio{
+  color: rgb(171,149,131);
+  font-family: "ITC Stone Informal"
+}
+.sabes{
+  font-family: "ITC Stone Informal";
+}
+
+
+
+
+
