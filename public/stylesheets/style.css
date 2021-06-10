@@ -44,11 +44,11 @@ small {
   width: 150px;
   height: 50px;
 }
-.form-control-lg::placeholder {
+.formB::placeholder {
   color: white;
   font-family: "Ubuntu-light";
 }
-.form-control-lg {
+.formB {
   background-color: rgb(153, 128, 88);
 }
 
@@ -178,14 +178,45 @@ small {
 .footer{
   background-color: #171315;
   height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
-.footer{
+.footer-form{
+  background-color: #171315;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .items{
   align-self: center;
 }
+/* Formulario */
+.form{
+  height: 700px;
+  background-color: lightgray;
+}
+.h2-form{
+  font-family: "ITC Stone Informal";
+  font-size: xx-large;
+}
 
+.form-input::placeholder{
+  color: white;
+  font-family: "Ubuntu-light";
+}
+
+.form-input{
+  background-color: rgb(153, 128, 88);
+}
+.btn-form{
+  background-color: rgb(211, 184, 142);
+  border: none;
+  color: white;
+  width: 150px;
+  height: 50px;
+  
+}
