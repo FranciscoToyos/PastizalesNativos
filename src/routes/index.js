@@ -5,5 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Pastizales Nativos' });
 });
+/* GET saludo page. */
+router.get('/saludo', function(req, res, next) {
+  res.render('saludo',{ title: 'Pastizales Nativos' });
+});
 
 module.exports = router;

@@ -1,93 +1,191 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('//db.onlinewebfonts.com/c/fb764bc6d85f6f564312cadbd3407f7a?family=ITC+Stone+Informal');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("//db.onlinewebfonts.com/c/fb764bc6d85f6f564312cadbd3407f7a?family=ITC+Stone+Informal");
 
+/* Banner */
 .card-img {
   height: 700px;
-  filter:brightness(40%)
+  filter: brightness(40%);
 }
 .icons {
   list-style: none;
   
 }
+.items1{
+  align-self: center;
+}
 .titulo {
   width: 18rem;
 }
-.h2-titulo{
+.h2-titulo {
   font-family: "ITC Stone Informal";
   font-weight: 800;
   font-display: 600;
-  line-height: 2.0;
+  line-height: 2;
   font-size: 10pt;
-  
+  animation: fadeOut;
+  animation-duration: 3s;
   
 }
-.h2-subt{
+.h2-subt {
   font-family: "Montserrat-light";
   font-weight: normal;
   letter-spacing: 5pt;
 }
-.parrafo{
+.parrafo {
   font-weight: 300px;
 }
-small{
+small {
   font-size: smaller;
 }
 .enviar {
-  background-color: rgb(211,184,142);
+  background-color: rgb(211, 184, 142);
   border: none;
   color: white;
   width: 150px;
-  
+  height: 50px;
 }
 .form-control-lg::placeholder {
   color: white;
   font-family: "Ubuntu-light";
 }
-.form-control-lg{
-  background-color: rgb(153,128,88);
+.form-control-lg {
+  background-color: rgb(153, 128, 88);
 }
 
 /* Seccion A */
 .seccionA {
-  background-color:rgb(207,170,128) ;
+  background-color: rgb(207, 170, 128);
   height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.img-cert  {
+.img-cert {
   width: 10rem;
   background-color: transparent;
-  
 }
 .img-cert src {
-  background-color:transparent ;
-  
+  background-color: transparent;
 }
-.h6seccB{
+.h6seccB {
   font-size: xxx-large;
   font-family: "Ubuntu";
   color: white;
   padding-left: 10px;
-  
 }
 
-.img-cards{
+.img-cards {
   width: 40rem;
   height: 35rem;
+  
 }
-.logos{
+.vaca{
+  animation: fadeInLeft;
+  animation-duration: 3s;
+  animation-delay: 8s;
+  
+}
+.pastizal{
+  animation: fadeInRight;
+  animation-duration: 3s;
+  animation-delay: 12s;
+  
+}
+.atardecer{
+  animation: fadeInUp;
+  animation-duration: 3s;
+  animation-delay: 16s;
+  
+}
+.logos {
   width: 18rem;
 }
-.cambio{
-  color: rgb(171,149,131);
-  font-family: "ITC Stone Informal"
-}
-.sabes{
+.cambio {
+  color: rgb(171, 149, 131);
   font-family: "ITC Stone Informal";
 }
+.sabes {
+  font-family: "ITC Stone Informal";
+  animation: bounce;
+  animation-duration: 3s;
+  animation-delay: 5s;
+}
 
+/* SeccionC */
+.seccionC {
+  background-color: lightgray;
+  margin-top: 100pt;
+  
+}
+.texto{
+  align-items: center;
+  
+}
+.h3-texto{
+  color:rgb(171,149,131);
+  font-family:"Arial";
+}
+.h2-texto{
+  font-size:xxx-large;
+  font-family: "ITC Stone Informal";
+  animation: zoomIn;
+  animation-duration: 3s;
+  animation-delay: 20s;
+}
+.img-sumat{
+  animation: rotateIn;
+  animation-duration: 3s;
+  animation-delay: 23s;
+}
+@media (min-width: 768px) {
+  .img-sumat {
+    width: 9rem;
+    height: 15rem;
+  }
+}
 
-
-
+@media (min-width:1200px){
+  .img-sumat{
+    width: 15rem;
+    height: 20rem;
+  }
+}
+/* Seccion D */
+.seccionD{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.h2-text-D{
+  font-size: xxx-large;
+  font-family: "ITC Stone Informal";
+  animation: zoomInDown;
+  animation-duration: 3s;
+  animation-delay: 30s;
+}
+.btn-contactar{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(211, 184, 142) ;
+  color: white;
+  font-size: x-large;
+  letter-spacing: 1pt;
+  margin-top: 20pt;
+  border: none;
+}
+/* Footer */
+.footer{
+  background-color: #171315;
+  height: 500px;
+  
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items{
+  align-self: center;
+}
 
